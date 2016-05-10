@@ -55,65 +55,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-.simon {
-    font-size: 6px;
-    width: 40em;
-    height: 40em;
-    margin: auto;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    left: 0;
-    border-radius: 20em;
-    overflow: hidden;
+/* element selector */
+body {
+  background-color: #999;
 }
-
-.panel {
-    background-color: #999;
-    width: 20em;
-    height: 20em;
-    float: left;
+.output {
+  font-size: 2em;
+  text-align: center;
 }
-
-.green {
-    background-color: #3BD140;
-}
-.red {
-    background-color: #F31A02;
-}
-.yellow {
-    background-color: #FFFE00;
-}
-.blue {
-    background-color: #0074E0;
-}
-
-.light {
-    background-image: url('http://fillmurray.com/200/200');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
-
-@media (min-width: 480px) {
-    .simon {
-        font-size: 12px;
-    }
-}
-
-@media (min-width: 600px) {
-    .simon {
-        font-size: 15px;
-    }
-}
-
-@media (min-width: 800px) {
-    .simon {
-        font-size: 18px;
-    }
+.darker {
+  font-weight: bold;
+  color: #000;
 }
 
 
